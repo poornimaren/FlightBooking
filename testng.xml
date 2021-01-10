@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<parameter name="name" value="Poornima"></parameter>
+		<parameter name="address" value="7/152,Street,colony,city,Pin-123456"></parameter>
+		<parameter name="city" value="Sivakasi"></parameter>
+		<parameter name="state" value="TamilNadu"></parameter>
+		<parameter name="zipCode" value="123456"></parameter>
+		<parameter name="cardType" value="Visa"></parameter>
+		<parameter name="cardNo" value="8745612312345678"></parameter>
+		<parameter name="month" value="10"></parameter>
+		<parameter name="year" value="2024"></parameter>
+		<parameter name="cardName" value="Poornima"></parameter>
+
+		<classes>
+			<class name="org.project.task3.Flight_BlazeDemo" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

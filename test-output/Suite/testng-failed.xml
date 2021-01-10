@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="zipCode" value="123456"/>
+  <parameter name="address" value="7/152,Street,colony,city,Pin-123456"/>
+  <parameter name="month" value="10"/>
+  <parameter name="cardName" value="Poornima"/>
+  <parameter name="city" value="Sivakasi"/>
+  <parameter name="year" value="2024"/>
+  <parameter name="name" value="Poornima"/>
+  <parameter name="cardType" value="Visa"/>
+  <parameter name="state" value="TamilNadu"/>
+  <parameter name="cardNo" value="8745612312345678"/>
+  <test name="Test(failed)" preserve-order="true">
+    <parameter name="zipCode" value="123456"/>
+    <parameter name="address" value="7/152,Street,colony,city,Pin-123456"/>
+    <parameter name="month" value="10"/>
+    <parameter name="cardName" value="Poornima"/>
+    <parameter name="city" value="Sivakasi"/>
+    <parameter name="year" value="2024"/>
+    <parameter name="name" value="Poornima"/>
+    <parameter name="cardType" value="Visa"/>
+    <parameter name="state" value="TamilNadu"/>
+    <parameter name="cardNo" value="8745612312345678"/>
+    <classes>
+      <class name="org.project.task3.Flight_BlazeDemo">
+        <methods>
+          <include name="tc1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.project.task3.Flight_BlazeDemo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
