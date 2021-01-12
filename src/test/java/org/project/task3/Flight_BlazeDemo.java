@@ -93,6 +93,9 @@ public class Flight_BlazeDemo {
 
 		}
 		l.close(driver);
+		l.close(driver);
+		l.close(driver);
+		l.close(driver);
 
 	}
 }
